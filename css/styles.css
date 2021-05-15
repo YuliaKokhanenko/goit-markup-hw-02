@@ -1,0 +1,224 @@
+:root {
+ --main-font: 'Roboto', sans-serif; 
+ --secondary-font:'Raleway', sans-serif;
+ --accent-color: #2196F3; 
+ --secondary-color: #212121;
+ --hero-background-color:#2F303A;
+ --text-color:#757575;
+}
+
+/*------Шрифты--------*/
+.body{
+ --font-family: var(--main-font);
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/*=====================Header===================================*/
+
+/*---------Логотип-- WebStudio-----------------*/
+.logo-link{
+font-family: var(--secondary-font);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--secondary-color); 
+}
+
+.logo-item {
+color: var(--accent-color);
+}
+
+    /*Навигационный лист*/
+.nav-link {
+font-family: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-color); 
+}
+
+/*Придаем ссылкам элемент hover и focus */
+.nav-link:hover,
+.nav-link:focus{
+color: var(--accent-color);
+}
+
+/*Контакты заголовка*/
+.contact-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+}
+
+.contact-link-tel {
+color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+color:  var(--accent-color);
+}
+
+/*====================The end header======================*/
+
+/*-----------------------HERO----------------------*/
+
+/*Эффективные решения для вашего бизнеса*/
+.hero-title{
+font-family: inherit;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/*text-align: center;*/
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2F303A;
+}
+
+/*Кнопка заказать услугу*/
+.modal-btn{
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+/*cursor: pointer;*/
+
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+color: #FFFFFF;
+background: var(--accent-color);
+}
+
+/*Особенности*/
+.desc-list-title{
+font-family:inherit;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--secondary-color);
+}
+
+.desc-list-suptitle{
+font-family: inherit;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+/*-----------Gallery-------------------*/
+
+.team-title {
+font-family:inherit;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+/*text-align: center;*/
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+
+.team-title-list-name{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color:var(--secondary-color);
+}
+
+.team-title-list-desc {
+font-family:inherit;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+
+/*text-align: center;*/
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+/*------------End Hero----------------*/
+/*-----------------Footer---------*/
+.footer{
+background: #2F303A;
+}
+.logo-item-link{
+color: #FFFFFF;
+}
+
+.address-list {
+font-family: inherit;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: #FFFFFF;
+letter-spacing: 0.03em;
+}
+.address-link {
+color: #FFFFFF;
+}
+.address-contact-link{
+font-family:inherit;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+/*==================Footer=================*/
+
+/*----------------Portfolio-------------*/
+/*Кнопки*/
+.main-modal-btn{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+
+.nav-item-link{
+color:var(--secondary-color);
+}
+.nav-item-link-current:hover,
+.nav-item-link-current:focus {
+color: var(--accent-color);
+}
+.portfolio-contact-list{
+    color: #757575;
+}
+/*-------------Portfolio--------------*/
+.desc-item-title{
+font-family: inherit;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--secondary-color);
+}
+.desc-item-suptitle{
+font-family: inherit;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+/*=========================End=================*/
