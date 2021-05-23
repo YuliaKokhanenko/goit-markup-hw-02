@@ -9,8 +9,8 @@
 }
 
 /*------Шрифты--------*/
-.body{
- --font-family: var(--main-font);
+body{
+font-family: var(--main-font);
 }
 .list {
     list-style: none;
@@ -36,13 +36,9 @@ color: var(--secondary-color);
 .logo-item {
 color: var(--accent-color);
 }
-.logo-link:hover{
-color: var(--accent-color);
-text-decoration: underline;
-}
+
     /*Навигационный лист*/
 .nav-link {
-font-family: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -56,14 +52,13 @@ color: var(--secondary-color);
 color: var(--accent-color);
 }
 
-.nav-item:hover{
+.nav-link-current{
 color: var(--accent-color);
-text-decoration: underline;
 }
 
 /*Контакты заголовка*/
 
-.contact-link {
+.contact-list {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -72,11 +67,6 @@ letter-spacing: 0.02em;
 
 .contact-link-tel {
 color: #757575;
-}
-
-.contact-item:hover{
-color:  var(--accent-color);
-text-decoration: underline;   
 }
 
 .contact-link:hover,
@@ -89,7 +79,7 @@ color:  var(--accent-color);
 /*-----------------------HERO----------------------*/
 
 /*Эффективные решения для вашего бизнеса*/
-.hero-title{
+.hero{
 font-family: inherit;
 font-weight: 900;
 font-size: 44px;
@@ -106,6 +96,8 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
+color:var(--text-decoration-color);
+background:var(--accent-color);
 cursor: pointer;
 }
 
@@ -115,9 +107,9 @@ color:var(--text-decoration-color);
 background: var(--accent-color);
 }
 
+/*-----------Description--------------------*/
 /*Особенности*/
 .desc-list-title{
-font-family:inherit;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -136,6 +128,15 @@ color: var(--text-color);
 }
 /*-----------Gallery-------------------*/
 
+.picture-desc{
+font-family:inherit;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color:var(--secondary-color);
+}
+
 .team-title {
 font-family:inherit;
 font-weight: 700;
@@ -144,6 +145,7 @@ line-height: 1.17;
 /*text-align: center;*/
 letter-spacing: 0.03em;
 color: var(--secondary-color);
+background: #F5F4FA;
 }
 
 .team-title-list-name{
@@ -172,33 +174,21 @@ background: #2F303A;
 color:var(--text-decoration-color);
 }
 
-.address-list {
+.address{
 font-family: inherit;
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 color:var(--text-decoration-color);
 letter-spacing: 0.03em;
 }
+
 .address-link {
 color:var(--text-decoration-color);
 }
 
-/*----Подсвечиваем ссылку--------*/
-.address-item:hover{
-color:var(--accent-color);
-text-decoration: underline;
-}
-.address-contact-link:hover{
-color: var(--accent-color);
-text-decoration: underline;
-}
 .address-contact-link{
-font-family:inherit;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
@@ -206,36 +196,39 @@ color: rgba(255, 255, 255, 0.6);
 
 /*----------------Portfolio-------------*/
 /*Кнопки*/
-.main-modal-btn{
+.button{
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
-color: var(--secondary-color);
+color: #212121;
+cursor: pointer;
 }
 
-.main-button .main-modal-btn:hover{
-color:var(--accent-color);
-text-decoration: underline;
+.button:hover,
+.button:focus {
+color:var(--text-decoration-color);
+background:var(--accent-color);
 }
 
 .nav-item-link{
 color:var(--secondary-color);
 }
 
-.nav-item-link-current:hover,
-.nav-item-link-current:focus {
+/*.nav-link-current:hover,
+.nav-link-current:focus {
 color: var(--accent-color);
-}
+}*/
+
 .portfolio-contact-list{
     color: #757575;
 }
 /*-------------Portfolio--------------*/
-.nav-list .nav-item-link:hover{
+/*.nav-list .nav-item-link:hover{
 color:  var(--accent-color);
 text-decoration: underline; 
-}
+}*/
 .desc-item-title{
 font-family: inherit;
 font-weight: 700;
