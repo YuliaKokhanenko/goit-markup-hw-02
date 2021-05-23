@@ -137,7 +137,7 @@ letter-spacing: 0.03em;
 color:var(--secondary-color);
 }
 
-.team-title {
+.team-title{
 font-family:inherit;
 font-weight: 700;
 font-size: 36px;
@@ -152,7 +152,7 @@ background: #F5F4FA;
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 letter-spacing: 0.03em;
 color:var(--secondary-color);
 }
@@ -216,19 +216,11 @@ background:var(--accent-color);
 color:var(--secondary-color);
 }
 
-/*.nav-link-current:hover,
-.nav-link-current:focus {
-color: var(--accent-color);
-}*/
-
 .portfolio-contact-list{
     color: #757575;
 }
 /*-------------Portfolio--------------*/
-/*.nav-list .nav-item-link:hover{
-color:  var(--accent-color);
-text-decoration: underline; 
-}*/
+
 .desc-item-title{
 font-family: inherit;
 font-weight: 700;
