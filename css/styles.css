@@ -43,7 +43,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--secondary-color); 
+color: var(--secondary-color);
 }
 
 /*Придаем ссылкам элемент hover и focus */
@@ -51,22 +51,21 @@ color: var(--secondary-color);
 .nav-link:focus{
 color: var(--accent-color);
 }
-
-.nav-link-current{
-color: var(--accent-color);
+.item{
+color: var(--accent-color); 
+}
+.current{
+color: var(--secondary-color);
 }
 
 /*Контакты заголовка*/
 
-.contact-list {
+.contact-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-}
-
-.contact-link-tel {
-color: #757575;
+color: var(--text-color);
 }
 
 .contact-link:hover,
@@ -79,7 +78,7 @@ color:  var(--accent-color);
 /*-----------------------HERO----------------------*/
 
 /*Эффективные решения для вашего бизнеса*/
-.hero{
+.hero-title{
 font-family: inherit;
 font-weight: 900;
 font-size: 44px;
@@ -128,13 +127,17 @@ color: var(--text-color);
 }
 /*-----------Gallery-------------------*/
 
-.picture-desc{
+.picture-title{
 font-family:inherit;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color:var(--secondary-color);
+}
+
+.team{
+background: #F5F4FA;
 }
 
 .team-title{
@@ -145,7 +148,6 @@ line-height: 1.17;
 /*text-align: center;*/
 letter-spacing: 0.03em;
 color: var(--secondary-color);
-background: #F5F4FA;
 }
 
 .team-title-list-name{
@@ -202,7 +204,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
-color: #212121;
+color:var(--secondary-color);
 cursor: pointer;
 }
 
@@ -211,14 +213,10 @@ cursor: pointer;
 color:var(--text-decoration-color);
 background:var(--accent-color);
 }
-
-.nav-item-link{
-color:var(--secondary-color);
+.current-item{
+color:var(--accent-color);
 }
 
-.portfolio-contact-list{
-    color: #757575;
-}
 /*-------------Portfolio--------------*/
 
 .desc-item-title{
