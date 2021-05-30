@@ -78,6 +78,9 @@ color:  var(--accent-color);
 /*-----------------------HERO----------------------*/
 
 /*Эффективные решения для вашего бизнеса*/
+.hero{
+    background-color:var(--hero-background-color);
+}
 .hero-title{
 font-family: inherit;
 font-weight: 900;
@@ -85,8 +88,9 @@ font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 color:var(--text-decoration-color);
-background: #2F303A;
 }
+
+
 
 /*Кнопка заказать услугу*/
 .modal-btn{
@@ -218,7 +222,9 @@ color:var(--accent-color);
 }
 
 /*-------------Portfolio--------------*/
-
+.main{
+    background: #F5F4FA; 
+}
 .desc-item-title{
 font-family: inherit;
 font-weight: 700;
